@@ -1,0 +1,166 @@
+/**
+ * Created by Prashamsa Pandey
+ * Email: pzp0052@auburn.edu
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+.ex-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start; }
+
+.ex-flex-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+.ex-vertical {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.ex-transition {
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease; }
+
+.ex-transition-medium {
+  -webkit-transition: all 1.2s ease;
+  -moz-transition: all 1.2s ease;
+  -ms-transition: all 1.2s ease;
+  -o-transition: all 1.2s ease;
+  transition: all 1.2s ease; }
+
+.ex-transition-large {
+  -webkit-transition: all 1.8s ease;
+  -moz-transition: all 1.8s ease;
+  -ms-transition: all 1.8s ease;
+  -o-transition: all 1.8s ease;
+  transition: all 1.8s ease; }
+
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+/*------------------------------------ Site Wide Starts -----------------------------------*/
+/*------------------------------------- Site Wide Ends ------------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*-------------------------------- Content Wrapper Starts ---------------------------------*/
+/*--------------------------------- Content Wrapper Ends ----------------------------------*/
+/*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+/*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+/*----------------------------------- Components Starts -----------------------------------*/
+/*------------------------------------ Components Ends ------------------------------------*/
+/*---------------------------------- Slick Slider Starts ----------------------------------*/
+/*----------------------------------- Slick Slider Ends -----------------------------------*/
+/*------------------------------------- Mcustom Starts ------------------------------------*/
+/*-------------------------------------- Mcustom Ends -------------------------------------*/
+@media all and (max-width: 1600px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+  /*----------------------------------- Components Starts -----------------------------------*/
+  /*------------------------------------ Components Ends ------------------------------------*/
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+  /*------------------------------------- Mcustom Starts ------------------------------------*/
+  /*-------------------------------------- Mcustom Ends -------------------------------------*/ }
+@media all and (max-width: 1199px) {
+  #header-wrapper .bottom-header ul li {
+    font-size: 15px; }
+    #header-wrapper .bottom-header ul li:not(:last-of-type) {
+      margin-right: 40px; }
+
+  body {
+    font-size: 14px; }
+
+  #content-wrapper #home-page .speciality-section .areas-container .areas-item {
+    width: 50%; } }
+@media all and (max-width: 991px) {
+  #header-wrapper .mobile-header {
+    display: block; }
+
+  #content-wrapper #home-page .introduction-section .about-description .description-container {
+    margin: -20px; }
+    #content-wrapper #home-page .introduction-section .about-description .description-container .description-item {
+      padding: 20px; }
+  #content-wrapper #home-page .speciality-section .areas-container .areas-item {
+    width: 100%; }
+
+  .custom-container {
+    padding: 30px 60px;
+    max-width: 1920px;
+    margin: auto; }
+
+  h1 {
+    font-size: 36px; }
+
+  h2 {
+    font-size: 26px; }
+
+  h3 {
+    font-size: 22px; }
+
+  h4 {
+    font-size: 18px; }
+
+  h5 {
+    font-size: 16px; }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative; }
+
+  .topnav #myLinks {
+    display: none; }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block; }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black; }
+
+  .topnav .active {
+    background-color: #03244D;
+    color: white; }
+
+  .top-header, .bottom-header {
+    display: none; } }
+@media all and (max-width: 767px) {
+  #content-wrapper #home-page .introduction-section .basic-information ul li {
+    width: 100%; }
+  #content-wrapper #home-page .introduction-section .about-description .description-container .description-item {
+    width: 100% !important; } }
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,504 @@
+/**
+ * Created by Prashamsa Pandey
+ * Email: pzp0052@auburn.edu
+*/
+
+@import "components/fonts_and_colors";
+
+
+
+/*------------------------------------ Site Wide Starts -----------------------------------*/
+
+/*------------------------------------- Site Wide Ends ------------------------------------*/
+
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+.contact-header{
+  background-color: #333333;
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    li{
+      a{
+        color: white;
+        font-size: 14px;
+      }
+
+      span{
+        margin-right: 5px;
+      }
+
+      &:not(:last-of-type){
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .custom-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+#header-wrapper{
+  background-color: $color-blue;
+  .top-header{
+    border-bottom: 2px solid #fff;
+    h1,h2{
+      color: #fff;
+      font-family: $font-type-condensed;
+      font-weight: 500;
+     a{
+       color: #fff;
+     }
+    }
+    h2{
+      margin-top: 10px;
+    }
+  }
+
+  .bottom-header{
+    ul{
+      display: flex;
+      li{
+        a{
+          color: white;
+          font-family: $font-type-condensed;
+          font-weight: 500;
+        }
+
+        &:not(:last-of-type){
+          margin-right: 70px;
+        }
+      }
+    }
+  }
+
+  .mobile-header{
+    display: none;
+  }
+}
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+/*-------------------------------- Content Wrapper Starts ---------------------------------*/
+#content-wrapper {
+  #home-page {
+    .introduction-section {
+      .basic-information {
+        margin-bottom: 50px;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: 0;
+          li {
+            width: 50%;
+            a{
+              color: #333;
+            }
+
+            &:first-of-type {
+              font-weight: bold;
+              width: 100%;
+            }
+
+            &:not(:last-of-type) {
+              padding-bottom: 20px;
+            }
+
+            span {
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+
+      .about-description {
+        .description-container {
+          display: flex;
+          flex-wrap: wrap;
+          margin: -30px;
+
+          .description-item {
+            padding: 30px;
+            width: 30%;
+
+            .image-container {
+              padding-bottom: 130%;
+              position: relative;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+              }
+            }
+
+            &:nth-of-type(2) {
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+
+    .speciality-section {
+      background-color: #dfdfdf40;
+      .areas-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -30px;
+
+        .areas-item {
+          width: 33.33%;
+          padding: 30px;
+
+          .inner {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-blue;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+
+            h4 {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #research-page {
+    .funding-sources {
+      .funding-container {
+        .funding-item {
+          display: flex;
+          align-items: center;
+          .inner{
+            margin: auto;
+            display: block;
+            text-align: center;
+          }
+          img {
+            width: 250px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  #teaching-page{
+    .teaching-section{
+      .tab-content{
+        margin-top: 30px;
+        ul {
+          li {
+            list-style: disc;
+            &:not(:last-of-type){
+              margin-bottom: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+/*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+#footer-wrapper{
+  background-color: $color-blue;
+  //position: absolute;
+  //bottom: 0;
+  //width: 100%;
+  ul{
+    text-align: center;
+    li{
+      color: white;
+      h4{
+        font-weight: bold;
+      }
+      a{
+        color: white;
+        display: block;
+      }
+
+      &:not(:last-of-type){
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .copyright-section{
+    .custom-container{
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    background-color: #333333;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+  }
+}
+/*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+/*----------------------------------- Components Starts -----------------------------------*/
+.common-remove-tab-style{
+  border-bottom: 0;
+  display: flex;
+  li{
+    list-style: none !important;
+    width: 33.33%;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+    position: relative;
+    a{
+      padding: 0;
+      background-color: transparent;
+      border: 0;
+      color: #333;
+      padding-bottom: 15px;
+      &:focus, &:hover {
+        background-color: transparent;
+        border: 0;
+
+      }
+
+      &:after{
+        content: '';
+        position: absolute;
+        width: 0;
+        bottom: 0;
+        background-color: $color-blue;
+        height: 3px;
+        transition: all 0.6s ease;
+        left: 0;
+      }
+    }
+
+      a{
+        &.active{
+          font-weight: bold;
+          background-color: transparent;
+          border: 0;
+          color: $color-blue;
+          &:focus,&:hover{
+            background-color: transparent;
+            border: 0;
+          }
+
+          &:after{
+            width: 100%;
+            transition: all 0.6s ease;
+          }
+      }
+    }
+  }
+
+  .nav-link {
+      border: 0;
+  }
+
+  .nav-item.show .nav-link,.nav-link.active {
+    color: #333;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    font-weight: bold;
+  }
+}
+
+.common-header-breadcrumb{
+  h3{
+    border-bottom: 2px solid $color-blue;
+    color: $color-blue;
+    font-family: $font-type-condensed;
+    padding-bottom: 30px;
+  }
+}
+
+.common-listing-section{
+  ul {
+    li {
+      list-style: disc;
+      margin-bottom: 20px;
+
+      span{
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      a{
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        color: $color-blue;
+      }
+    }
+  }
+
+  .content-section{
+   ul{
+      span{
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px;
+        display: block;
+      }
+      li{
+        &:not(:last-of-type){
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .section-title{
+    h5{
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+
+  .students-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -30px;
+    .student-item{
+      width: 50%;
+      padding: 30px;
+      text-align: center;
+      .inner{
+        padding: 40px 20px;
+        box-shadow: 2px 5px 8px 2px #00000040;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        h3{
+          margin-bottom: 10px;
+        }
+        h4{
+          margin-bottom: 5px ;
+        }
+        h3,h4,h5{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &.gray-bg{
+    background-color: #dfdfdf40;
+  }
+}
+
+.simple-pagination {
+  display: flex;
+  justify-content: center;
+
+  ul {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin-right: 5px;
+
+      a, span {
+        color: #666;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: 1px solid #EEE;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px 0px #EEE;
+      }
+    }
+  }
+
+  .current {
+    color: #FFF;
+    background-color: #03244D;
+    border-color: #03244D;
+  }
+
+  .prev.current, .next.current {
+    background: #03244D;
+  }
+}
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  .slick-slider{
+    .slick-prev,.slick-next{
+
+    }
+
+    .slick-prev{
+      left: 20px;
+    }
+
+    .slick-next{
+      right: 20px;
+    }
+  }
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*------------------------------------- Mcustom Starts ------------------------------------*/
+  /*-------------------------------------- Mcustom Ends -------------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  .modal-dialog{
+    margin: 70px auto;
+    .modal-header{
+      padding: 0;
+      border: 0;
+      button{
+        position: absolute;
+        top: -30px;
+        right: 0;
+        color: #fff;
+        opacity: 1;
+      }
+    }
+    .modal-content{
+      background: black;
+      border-radius: 0;
+      .modal-body{
+        padding: 30px 26px;
+        .modal-loading-gif{
+          height: 130px;
+          position: relative;
+          img{
+            width: 30px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top:50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+          }
+        }
+        p,h1,h2,h3,h4,h5,h6,ul li,ol li,span{
+          color: #fff;
+        }
+      }
+    }
+  }
+/*--------------------------------------- Modal Ends --------------------------------------*/
