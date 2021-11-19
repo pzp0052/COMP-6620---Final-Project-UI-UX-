@@ -158,6 +158,9 @@
   #footer-wrapper .copyright-section {
     font-size: 12px; } }
 @media all and (max-width: 767px) {
+  .contact-header ul li a {
+    font-size: 10px; }
+
   .custom-container {
     padding: 30px 40px; }
 
