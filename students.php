@@ -12,7 +12,7 @@
                 <div class="section-title">
                     <h2>Students</h2>
 
-                    <h5>(Degree/ Employment)</h5>
+<!--                    <h5>(Degree/ Employment)</h5>-->
                 </div>
 
                 <div class="students-container">
