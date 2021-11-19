@@ -161,6 +161,12 @@
   #content-wrapper #home-page .introduction-section .basic-information ul li {
     width: 100%; }
   #content-wrapper #home-page .introduction-section .about-description .description-container .description-item {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .common-listing-section .students-container {
+    margin: -20px; }
+    .common-listing-section .students-container .student-item {
+      width: 100%;
+      padding: 20px; } }
 
 /*# sourceMappingURL=responsive.css.map */
