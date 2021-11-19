@@ -54,6 +54,25 @@
 <div id="wrapper">
 
     <!--------------------------------- Header Wrapper Starts ---------------------------------->
+    <div class="contact-header">
+        <div class="custom-container">
+            <ul>
+                <li>
+                    <a href="tel: (334) - 844 - 6306" target="_blank">
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        (334) - 844 - 6306
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto: baskisa@auburn.edu" target="_blank">
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        baskisa@auburn.edu
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <header id="header-wrapper">
         <div class="top-header">
             <div class="custom-container">

@@ -70,8 +70,8 @@
     .contact-header ul li:not(:last-of-type) {
       margin-right: 15px; }
   .contact-header .custom-container {
-    padding-top: 15px;
-    padding-bottom: 15px; }
+    padding-top: 10px;
+    padding-bottom: 10px; }
 
 #header-wrapper {
   background-color: #03244D; }
