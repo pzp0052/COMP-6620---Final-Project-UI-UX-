@@ -124,22 +124,22 @@
 
                         <li>  Soares, C., Page, G., MacDonald, J., Baskiyar, S., Hamilton, J., and Dozier, G., “Bowl championship series vulnerability analysis,” Proceedings of TAPIA Diversity in Computing,"
                             pp 1-4, Orlando, Florida, October 2007.
-                            <a href="https://dl.acm.org/doi/abs/10.1145/1347787.1347794">Link to resources</a>
+                            <a href="https://dl.acm.org/doi/abs/10.1145/1347787.1347794" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Liu, C*, Baskiyar, S. and Li, S.*, “A General Distributed Scalable Peer to Peer Scheduler for Mixed Tasks in Grids,” Lecture Notes on Computer Science,"
                             vol. 4873, pp. 320-330, Springer, 2007.
-                            <a href="https://link.springer.com/chapter/10.1007/978-3-540-77220-0_31">Link to resources</a>
+                            <a href="https://link.springer.com/chapter/10.1007/978-3-540-77220-0_31" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Baskiyar, S. and SaiRanga, P.*, “Scheduling DAGs on heterogeneous network of workstations to minimize finish time,” International Journal of Computers and Their Applications,"
                             vol. 13, no 4, Dec 2006.
-                            <a href="https://ieeexplore.ieee.org/abstract/document/1240359">Link to resources</a>
+                            <a href="https://ieeexplore.ieee.org/abstract/document/1240359" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Baskiyar, S. and Palli, K.K.*, “Low-power scheduling of DAGs to minimize finish time,” Lecture Notes in Computer Science,"
                             pp. 353 -362, 2006.
-                            <a href="https://link.springer.com/chapter/10.1007/11945918_36">Link to resources</a>
+                            <a href="https://link.springer.com/chapter/10.1007/11945918_36" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Abdel-Kader, R.* and Baskiyar, S., “Power managed task scheduling on heterogeneous systems,” Proc. of International Conference on Parallel and Distributed Computing,"
@@ -148,23 +148,22 @@
 
                         <li>  Cong, L.*, Baskiyar, S. and Wang, C.J.*, “A distributed peer to peer grid scheduler,” Proceedings of the International Conference on Parallel and Distributed Computing and Systems,"
                             IASTED, Nov. 2006.
-                            <a href="https://www.actapress.com/PaperInfo.aspx?PaperID=28854&reason=500">Link to resources</a>
+                            <a href="https://www.actapress.com/PaperInfo.aspx?PaperID=28854&reason=500" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  SaiRanga, P.* and Baskiyar, S., “A low complexity algorithm for dynamic scheduling of independent tasks onto heterogeneous computing systems,” 43rd ACM SE conference,"
                             Kennesaw, GA, March 2005.
-                            <a href="https://dl.acm.org/doi/abs/10.1145/1167350.1167380">Link to resources</a>
+                            <a href="https://dl.acm.org/doi/abs/10.1145/1167350.1167380" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Baskiyar, S. and Dickinson, C.*, “Scheduling directed a-cyclic task graphs on a bounded set of heterogeneous processors using task duplication,” Journal of Parallel and Distributed Computing,"
                             vol. 8, no 65, pp 911-921, Elsevier, 2005.   PDF
-                            <a href="https://www.sciencedirect.com/science/article/pii/S0743731505000067">Link to resources</a>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0743731505000067" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Baskiyar, S. and Meghanathan, N.*, “A survey of contemporary real-time operating systems,” Informatica,"
                             vol. 29, no. 2, pp 233-240, 2005.  PDF
-                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/Survey-of-RTOS-Informatica.pdf">Link to resources</a>+
-                            +
+                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/Survey-of-RTOS-Informatica.pdf" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Baskiyar, S. and SaiRanga, P.C.*, “Scheduling directed a-cyclic graphs on heterogeneous computing systems,” Workshop on CRTPC in Proc.  32nd International Conference on Parallel Processing,"
@@ -173,62 +172,62 @@
 
                         <li>  Baskiyar, S. and SaiRanga, P. C.*, “Scheduling DAGs on heterogeneous network of workstations to minimize finish time,” Proc. ISCA 16th International Parallel and Distributed Computing Symposium,"
                             pp. 30-35, 2003.
-                            <a href="https://ieeexplore.ieee.org/abstract/document/1240359">Link to resources</a>
+                            <a href="https://ieeexplore.ieee.org/abstract/document/1240359" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Baskiyar, S. and Meghanathan, N.*, “Binary codes for fast determination of ancestor-descendant relationship in trees and directed a-cyclic graphs,” International Journal of Computers and Their Applications,"
                             vol. 10, no. 3, pp. 67-71, 2003.  PDF
-                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/treecodes102002.pdf">Link to resources</a>
+                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/treecodes102002.pdf" target="_blank">Link to resources</a>
                         </li>
 
                         <li>  Baskiyar, S., “A computer based educational Smith Chart,” Computers in Education Journal,” ASEE,"
                             vol. 13, no. 3, pp 76-80, 2003.  PDF
-                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/smithpaper1.PDF">Link to resources</a>
+                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/smithpaper1.PDF" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S. and Dickinson, C.*, “Scheduling directed a-cyclic task graphs on heterogeneous processors using task duplication,” LNCS,"
                             vol. 2913, pp. 259-267, Springer, 2003.
-                            <a href="https://link.springer.com/chapter/10.1007/978-3-540-24596-4_28">Link to resources</a>
+                            <a href="https://link.springer.com/chapter/10.1007/978-3-540-24596-4_28" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “Efficient execution of pure object-oriented programs by follow-up compilation,” Computing, Springer,"
                             vol 69, no. 10, pp. 273-289, 2002.  (This article received separate favorable reviews in the publication ACM Computing Reviews). PDF
-                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/OO-Arch-Support.pdf">Link to resources</a>
+                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/OO-Arch-Support.pdf" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “A real-time fault tolerant intra-body network,” Proc. 27th International LCN,"
                             pp 235-240, 2002, Tampa, FL, IEEE-ACM Press.  PDF
-                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/ibn.pdf">Link to resources</a>
+                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/ibn.pdf" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “A survey on real-time operating systems,” Proc. IASTED-NPDA, 2002,"
                             Tsukuba, Japan, Acta Press.
-                            <a href="https://www.actapress.com/abstract.aspx?paperid=25160">Link to resources</a>
+                            <a href="https://www.actapress.com/abstract.aspx?paperid=25160" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “A software simulation of DNA computing,” Proc. 15th PDCS, 2002,"
                             pp 373-378, Louisville, KY, ISCA.
-                            <a href="https://link.springer.com/chapter/10.1007/3-540-36265-7_39">Link to resources</a>
+                            <a href="https://link.springer.com/chapter/10.1007/3-540-36265-7_39" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “Simulating DNA computing,” Lecture-Notes in Computer Science, v. 2552,"
                             pp. 411-419, Springer, 2002.
-                            <a href="https://link.springer.com/chapter/10.1007/3-540-36265-7_39">Link to resources</a>
+                            <a href="https://link.springer.com/chapter/10.1007/3-540-36265-7_39" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “Scheduling task in-trees on distributed memory systems,” Proc. 15th IPDPS, San Francisco, CA,"
                             2001 (IEEE-ACM).
-                            <a href="https://search.ieice.org/bin/summary.php?id=e84-d_6_685">Link to resources</a>
+                            <a href="https://search.ieice.org/bin/summary.php?id=e84-d_6_685" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “Minimizing makespan of task in-trees,” IEICE Transactions on Information and Systems, Oxford Univ. Press, vol. E 84-D, no. 6,"
                             pp. 685-691, 2001.  PDF
-                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/Tree-IEICE.pdf">Link to resources</a>
+                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/Tree-IEICE.pdf" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S. and Meghanathan, N.*, “Scheduling and load sharing in mobile computing using tickets,” Proc. 39th SE-ACM Conference, Athens, GA,"
                             2001.  PDF
-                            <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.6939&rep=rep1&type=pdf">Link to resources</a>
+                            <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.6939&rep=rep1&type=pdf" target="_blank">Link to resources</a>
                         </li>
 
                         <li>   Baskiyar, S., “Speeding Smalltalk programs using follow-up compilation,” Proc. EIT Conf, Chicago,"
@@ -237,7 +236,7 @@
 
                         <li>   Baskiyar, S., “Scheduling DAGs on message passing m-processors systems,” IEICE Transactions on Information and Systems, vol. E-83-D, no. 7,"
                             pp. 1497-1507, Oxford Univ. Press, 2000.  PDF
-                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/IEICE-DAG.pdf">Link to resources</a>
+                            <a href="https://www.eng.auburn.edu/~baskiyar/MyArticles/IEICE-DAG.pdf" target="_blank">Link to resources</a>
                         </li>
 
                         <li>    Baskiyar, S. and Kain, R.Y., “Smith chart with GUI,” Proc. NC-ASEE Conf., Erie,"
