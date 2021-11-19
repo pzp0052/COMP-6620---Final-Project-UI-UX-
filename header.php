@@ -103,7 +103,7 @@
         <div class="mobile-header">
             <div class="custom-container">
                 <div class="topnav">
-                    <a href="#home" class="active">Sanjeev Baskiyar</a>
+                    <a href="index.php" class="active main-logo">Sanjeev Baskiyar, PhD</a>
                     <div id="myLinks">
                         <a href="index.php">Portfolio</a>
 

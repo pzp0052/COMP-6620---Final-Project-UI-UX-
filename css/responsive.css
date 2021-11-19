@@ -106,9 +106,7 @@
     width: 100%; }
 
   .custom-container {
-    padding: 30px 60px;
-    max-width: 1920px;
-    margin: auto; }
+    padding: 30px 60px; }
 
   h1 {
     font-size: 36px; }
@@ -125,39 +123,44 @@
   h5 {
     font-size: 16px; }
 
-  .topnav {
+  #header-wrapper .main-logo {
+    font-size: 25px !important;
+    padding-left: 0 !important;
+    font-weight: 500;
+    font-family: "Roboto Condensed", sans-serif;
+    background: #03244D !important; }
+  #header-wrapper .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative; }
-
-  .topnav #myLinks {
+    #header-wrapper .topnav #myLinks {
+      display: none; }
+    #header-wrapper .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 14px;
+      display: block; }
+      #header-wrapper .topnav a.icon {
+        background: #03244D;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0; }
+        #header-wrapper .topnav a.icon i {
+          font-size: 20px; }
+    #header-wrapper .topnav.active {
+      background-color: #03244D;
+      color: white; }
+  #header-wrapper .top-header, #header-wrapper .bottom-header {
     display: none; }
 
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block; }
-
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0; }
-
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black; }
-
-  .topnav .active {
-    background-color: #03244D;
-    color: white; }
-
-  .top-header, .bottom-header {
-    display: none; } }
+  #footer-wrapper .copyright-section {
+    font-size: 12px; } }
 @media all and (max-width: 767px) {
+  .custom-container {
+    padding: 30px 40px; }
+
   #content-wrapper #home-page .introduction-section .basic-information ul li {
     width: 100%; }
   #content-wrapper #home-page .introduction-section .about-description .description-container .description-item {
@@ -167,6 +170,9 @@
     margin: -20px; }
     .common-listing-section .students-container .student-item {
       width: 100%;
-      padding: 20px; } }
+      padding: 20px; }
+
+  #footer-wrapper .copyright-section {
+    text-align: center; } }
 
 /*# sourceMappingURL=responsive.css.map */
