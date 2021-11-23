@@ -85,7 +85,7 @@
             <div class="custom-container small-padding-top-bottom">
                 <ul>
                     <li>
-                        <a href="index.php">Portfolio</a>
+                        <a href="index.php">Home</a>
                     </li>
 
                     <li>
@@ -124,7 +124,7 @@
                 <div class="topnav">
                     <a href="index.php" class="active main-logo">Sanjeev Baskiyar, PhD</a>
                     <div id="myLinks">
-                        <a href="index.php">Portfolio</a>
+                        <a href="index.php">Home</a>
 
                         <a href="research.php">Research</a>
 
