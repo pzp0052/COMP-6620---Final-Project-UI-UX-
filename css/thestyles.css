@@ -64,7 +64,13 @@
     justify-content: flex-end; }
     .contact-header ul li a {
       color: white;
-      font-size: 14px; }
+      font-size: 14px;
+      transform: scale(0.9);
+      display: block;
+      transition: all 0.6s ease; }
+      .contact-header ul li a:hover, .contact-header ul li a:focus {
+        transform: scale(1);
+        transition: all 0.6s ease; }
     .contact-header ul li span {
       margin-right: 5px; }
     .contact-header ul li:not(:last-of-type) {
@@ -90,7 +96,22 @@
     #header-wrapper .bottom-header ul li a {
       color: white;
       font-family: "Roboto Condensed", sans-serif;
-      font-weight: 500; }
+      font-weight: 500;
+      display: block;
+      position: relative;
+      padding-bottom: 5px; }
+      #header-wrapper .bottom-header ul li a:after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #fff;
+        transition: all 0.6s ease; }
+      #header-wrapper .bottom-header ul li a:hover:after, #header-wrapper .bottom-header ul li a:focus:after {
+        width: 100%;
+        transition: all 0.6s ease; }
     #header-wrapper .bottom-header ul li:not(:last-of-type) {
       margin-right: 70px; }
   #header-wrapper .mobile-header {
@@ -183,7 +204,21 @@
         font-weight: bold; }
       #footer-wrapper ul li a {
         color: white;
-        display: block; }
+        display: inline-block;
+        position: relative;
+        padding-bottom: 5px; }
+        #footer-wrapper ul li a:after {
+          content: '';
+          position: absolute;
+          height: 2px;
+          width: 0;
+          left: 0;
+          bottom: 0;
+          background-color: #fff;
+          transition: all 0.6s ease; }
+        #footer-wrapper ul li a:hover:after, #footer-wrapper ul li a:focus:after {
+          width: 100%;
+          transition: all 0.6s ease; }
       #footer-wrapper ul li:not(:last-of-type) {
         margin-bottom: 15px; }
   #footer-wrapper .copyright-section {
